@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.row a{
+    text-decoration: none;
+    color: black;
+}
+.row a:hover{
+    color: white;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-m-4 {width: 30%;}
+    .col-m-6 {width: 50%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 47.5%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.navbar{
+    background-color: #333;
+   
+}
+.navbar-menu {
+    max-width: 850px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar-menu li{
+    float: left;
+}
+.navbar-menu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-menu a:hover{
+    background-color: #111;
+    color: dodgerblue;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.right-navbar {
+    float: right;
+}
+.right-navbar img{
+    width: 18px;
+}
+.banner{
+    text-align: left;
+    color: black;
+    max-width: 823px;
+    margin: auto;
+    background-size: cover;
+}
+.custombanner{
+    background-image: url("https://thumbs.dreamstime.com/z/work-progress-over-white-background-vector-illustration-33893205.jpg");
+    text-align: center;
+    color: dodgerblue;
+    height: 20rem;
+    max-width: 823px;
+    margin: auto;
+    background-size: cover;
+    padding: 14px;
+}
+.banner a{
+    text-decoration: none;
+    color: black;
+}
+.banner a:hover{
+    color: dodgerblue;
+}
+.slide{
+    background-image: url('http://magaandseba.com/wp-content/uploads/2014/08/04.jpg');
+    display: none;
+    position: relative;
+}
+.active-slide{
+    display: block;
+    position: relative;
+}
+.slide p, h2{
+    text-align: left;
+}
+.slide img{
+    max-width: 350px
+}
+.bannerpage {
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+}
+.button{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+}
+.button:hover{
+    color: dodgerblue
+}
+.slide-dots{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1
+}
+.dot{
+    color: #bbbcbc;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.active-dot{color: #363636;}
+.content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+.first{
+    background-image: url('http://data.whicdn.com/images/32631289/large.jpg');
+}
+.second{
+    background-image: url('http://cdn.shopify.com/s/files/1/0043/9252/products/the-vintage-tote-bag-5.jpg?v=1470499389');
+}
+.third{
+    background-image: url('http://www.lovethispic.com/uploaded_images/gold_jewelry.jpg');
+}
+.fourth{
+    background-image: url('http://picture-cdn.wheretoget.it/hew2y0-l-610x610-dress-shoes-bags-hats-jewelry-watch-necklace-socks-belts-vintage-cotton+dress-dresses-cute-summer+dress-brown-peach-blue-patterned-belted-dress+tumblr-abercrombie-hollister-short-h.jpg');
+}
+.fifth{
+    background-image: url('http://www.optionbox.co.uk/wp-content/uploads/2014/09/business-telephone-systems.jpg');
+}
+.contact{
+    margin: auto;
+    max-width: 823px;
+}
+.social{
+    border-right: 1px solid black;
+}
+.contact a:hover{
+    color: dodgerblue;
+}
+footer {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+footer p{
+    float: left;
+    padding: 14px 16px;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+footer a:hover{
+    color: dodgerblue;
+}
+.right{
+    float: right;
+}
+
+
+
+
+
