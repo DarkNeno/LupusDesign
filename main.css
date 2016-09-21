@@ -105,6 +105,7 @@ li a, .dropbtn {
     max-width: 823px;
     margin: auto;
     background-size: cover;
+    position: relative;
 }
 .custombanner{
     background-image: url("https://thumbs.dreamstime.com/z/work-progress-over-white-background-vector-illustration-33893205.jpg");
@@ -126,7 +127,11 @@ li a, .dropbtn {
 .slide{
     background-image: url('http://magaandseba.com/wp-content/uploads/2014/08/04.jpg');
     display: none;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .active-slide{
     display: block;
